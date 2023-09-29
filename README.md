@@ -68,3 +68,18 @@ Step 5: access the nodejs application from browser
     docker build -t my-app:1.0 .       
     
 The dot "." at the end of the command denotes location of the Dockerfile.
+
+
+
+#####################################################################
+create freestyle project
+enter github project url in Github Project
+enter github project url in git (without credentials if public)
+
+select GitHub scam polling for webhook
+
+install Github integration plugin
+
+
+Goto github --> settings -->webhook
+<jenkinsurl>/github-webhook/
